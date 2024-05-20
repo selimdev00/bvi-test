@@ -15,11 +15,17 @@
     <script src="./bvi/dist/js/bvi.min.js"></script>
     <script>
         console.log(isvek)
-        new isvek.Bvi()
+        new isvek.Bvi({
+            target: '.className',
+            fontSize: 24,
+            theme: 'black'
+        })
     </script>
 
     <h1>Test BVI</h1>
 
-    <a href="#" class="bvi-open">Toggle</a>
+    <img width="200" src="https://images.pexels.com/photos/23541799/pexels-photo-23541799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+
+    <a href="#" class="className">Toggle</a>
 </body>
 </html>
